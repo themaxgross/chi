@@ -39,8 +39,9 @@ export const Layout = ({ children, ...rest }) => {
           font-family: futura-pt, sans-serif;
           font-weight: normal;
         }
+
         p {
-          font-family: adobe-garamond-pro, serif;
+          font-family: noto-serif, serif;
           font-weight: 400;
           font-style: normal;
           font-size: 1.25rem;
