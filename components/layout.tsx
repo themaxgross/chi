@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Container from 'react-bootstrap/Container'
 import { Header } from './header'
 import { Footer } from './footer'
+import { Fader } from './fader'
 
 export const Layout = ({ children, ...rest }) => {
   return (
@@ -10,7 +11,7 @@ export const Layout = ({ children, ...rest }) => {
         <link rel='stylesheet' href='https://use.typekit.net/vsr0fdb.css' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
+      <Fader />
       <div className='pt-5'>
         <Header />
         {children}
