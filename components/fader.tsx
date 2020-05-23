@@ -18,10 +18,10 @@ export function Fader() {
       }
       anchors[idx].addEventListener('click', function (event) {
         const fader = document.getElementById('fader'),
-          anchor = event.currentTarget
+          anchor = event.currentTarget as HTMLAnchorElement
 
         const listener = function () {
-          window.location = anchor.href
+          window.location = (anchor.href as unknown) as Location
           fader.removeEventListener('animationend', listener)
         }
         fader.addEventListener('animationend', listener)
