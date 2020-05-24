@@ -14,7 +14,7 @@ export const Layout = ({ children, ...rest }) => {
       <Fader />
       <div className='pt-5'>
         <Header />
-        {children}
+        <main>{children}</main>
         <Footer />
       </div>
 
