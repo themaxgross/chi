@@ -1,11 +1,12 @@
-import { AppProps, Container } from 'next/app'
+import { Fragment } from 'react'
+import { AppProps } from 'next/app'
 import { DefaultSeo } from 'next-seo'
 
 import 'styles/global.scss'
 
 function CustomApp({ Component: App, pageProps }: AppProps) {
   return (
-    <Container>
+    <Fragment>
       <DefaultSeo
         openGraph={{
           type: 'website',
@@ -20,7 +21,7 @@ function CustomApp({ Component: App, pageProps }: AppProps) {
         }}
       />
       <App {...pageProps} />
-    </Container>
+    </Fragment>
   )
 }
 

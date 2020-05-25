@@ -8,18 +8,18 @@ export default function Home() {
     <Layout>
       <Head>
         <title>Leo Ji</title>
-        <Seo
-          title='Leo Ji, software developer and engineer'
-          description='Software developer and engineer with a focus on human-centered design principles.'
-          openGraph={{
-            type: 'website',
-            url: 'https://leoji.codes',
-            title: 'Leo Ji, software developer and engineer',
-            description:
-              'Software developer and engineer with a focus on human-centered design principles.',
-          }}
-        />
       </Head>
+      <Seo
+        title='Leo Ji, software developer and engineer'
+        description='Software developer and engineer with a focus on human-centered design principles.'
+        openGraph={{
+          type: 'website',
+          url: 'https://leoji.codes',
+          title: 'Leo Ji, software developer and engineer',
+          description:
+            'Software developer and engineer with a focus on human-centered design principles.',
+        }}
+      />
       <p>
         Hi. I’m Leo. I’m currently a software engineer at The Washington Post.
       </p>
