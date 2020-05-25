@@ -11,11 +11,6 @@ export default function Home() {
         <Seo
           title='Leo Ji, software developer and engineer'
           description='Software developer and engineer with a focus on human-centered design principles.'
-          twitter={{
-            handle: '@theleoji',
-            site: '@theleoji',
-            cardType: 'summary_large_image',
-          }}
         />
       </Head>
       <p>
