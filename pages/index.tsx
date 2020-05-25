@@ -11,6 +11,13 @@ export default function Home() {
         <Seo
           title='Leo Ji, software developer and engineer'
           description='Software developer and engineer with a focus on human-centered design principles.'
+          openGraph={{
+            type: 'website',
+            url: 'https://leoji.codes',
+            title: 'Leo Ji, software developer and engineer',
+            description:
+              'Software developer and engineer with a focus on human-centered design principles.',
+          }}
         />
       </Head>
       <p>
