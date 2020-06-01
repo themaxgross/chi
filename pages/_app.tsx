@@ -13,6 +13,13 @@ function CustomApp({ Component: App, pageProps }: AppProps) {
           locale: 'en_us',
           url: 'https://leoji.codes/',
           site_name: 'Leo Ji, software developer and engineer',
+          images: [
+            {
+              url: 'https://leoji.codes/cover.jpg',
+              width: 2757,
+              height: 1378,
+            },
+          ],
         }}
         twitter={{
           handle: '@theleoji',
