@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Container from 'react-bootstrap/Container'
+import Container, { ContainerProps } from 'react-bootstrap/Container'
 import { Header } from './header'
 import { Footer } from './footer'
 import { Fader } from './fader'
 
-export const Layout = ({ children, ...rest }) => {
+export const Layout = ({ children, ...rest }: ContainerProps) => {
   return (
     <Container {...rest} style={{ maxWidth: '864px' }}>
       <Head>
