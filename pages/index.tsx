@@ -95,8 +95,8 @@ export default function Home() {
       />
       <p>
         Hi. I’m Leo. I’m currently a software engineer at The Washington Post
-        based in Washington, D.C., and a freelancer writer on life, identity and
-        Asian America.
+        based in Washington, D.C., and a writer on life, identity and Asian
+        America.
       </p>
       <p>I studied at Northwestern University in Evanston, Illinois.</p>
     </Layout>
