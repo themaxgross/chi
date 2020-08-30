@@ -55,7 +55,7 @@ export function Footer() {
       <div className='mb-1'>© Leo Ji, 2020. All rights reserved.</div>
       <Nav as='nav'>
         {links.map(({ link, ...rest }) => (
-          <FooterNavItem children={link} {...rest} key={link.href} />
+          <FooterNavItem children={link} {...rest} key={link} />
         ))}
       </Nav>
     </footer>
