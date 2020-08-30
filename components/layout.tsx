@@ -4,7 +4,11 @@ import { Header } from './header'
 import { Footer } from './footer'
 import { Fader } from './fader'
 
-export const Layout = ({ children, ...rest }: ContainerProps) => {
+export const Layout = ({
+  hideHeader = false,
+  children,
+  ...rest
+}: ContainerProps & { hideHeader?: boolean }) => {
   return (
     <Container {...rest} style={{ maxWidth: '864px' }}>
       <Head>
@@ -13,7 +17,7 @@ export const Layout = ({ children, ...rest }: ContainerProps) => {
       </Head>
       <Fader />
       <div className='pt-5'>
-        <Header />
+        {!hideHeader && <Header />}
         <main>{children}</main>
         <Footer />
       </div>
