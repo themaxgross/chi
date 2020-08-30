@@ -5,6 +5,9 @@ export function Fader() {
       return
     }
     var fader = document.getElementById('fader')
+    if (!fader) {
+      return
+    }
     fader.classList.add('fade-out')
 
     if (!window.AnimationEvent) {
@@ -19,6 +22,10 @@ export function Fader() {
       anchors[idx].addEventListener('click', function (event) {
         const fader = document.getElementById('fader'),
           anchor = event.currentTarget as HTMLAnchorElement
+
+        if (!fader) {
+          return
+        }
 
         const listener = function () {
           window.location = (anchor.href as unknown) as Location
@@ -36,6 +43,9 @@ export function Fader() {
         return
       }
       var fader = document.getElementById('fader')
+      if (!fader) {
+        return
+      }
       fader.classList.remove('fade-in')
     })
   }, [])
