@@ -6,7 +6,7 @@ import { Fader } from './fader'
 
 export const Layout = ({ children, ...rest }) => {
   return (
-    <Container {...rest}>
+    <Container {...rest} style={{ maxWidth: '864px' }}>
       <Head>
         <link rel='stylesheet' href='https://use.typekit.net/vsr0fdb.css' />
         <link rel='icon' href='/favicon.ico' />
@@ -26,6 +26,7 @@ export const Layout = ({ children, ...rest }) => {
           font-family: adobe-garamond-pro, serif;
           font-weight: 400;
           font-style: normal;
+          background-color: #f0f0f0;
         }
         * {
           box-sizing: border-box;

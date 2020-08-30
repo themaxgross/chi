@@ -2,8 +2,8 @@ import Nav from 'react-bootstrap/Nav'
 
 export function Footer() {
   return (
-    <footer className='mt-4'>
-      <div>© Leo Ji, 2020. All rights reserved.</div>
+    <footer className='mt-5'>
+      <div className='mb-1'>© Leo Ji, 2020. All rights reserved.</div>
       <Nav as='nav'>
         <Nav.Item>
           <Nav.Link href='https://leoji.blog/' className='pl-0'>
