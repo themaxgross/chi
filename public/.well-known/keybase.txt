@@ -1,0 +1,86 @@
+==================================================================
+https://keybase.io/leoji
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://leoji.codes
+  * I am leoji (https://keybase.io/leoji) on keybase.
+  * I have a public key with fingerprint 0F55 A90A C45F FCA9 8FC4  F0B3 D94D 635D A839 BE2C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120467b31c914b29eafbe0e211116b27f1d729b0d09bcf60f76fda7ed98f18e29470a",
+      "fingerprint": "0f55a90ac45ffca98fc4f0b3d94d635da839be2c",
+      "host": "keybase.io",
+      "key_id": "d94d635da839be2c",
+      "kid": "01017794662588f3356d7078102c4a8c90bd9b119533c62c519c2f8c552e37c97ada0a",
+      "uid": "e10f68d8ee9587da2517568c5db6e319",
+      "username": "leoji"
+    },
+    "merkle_root": {
+      "ctime": 1598850357,
+      "hash_meta": "75d472fae329363812b0149a118c8048791ce3bc9aa92a49cab41324092e1076",
+      "seqno": 17430101
+    },
+    "revoke": {
+      "sig_ids": [
+        "27fb42d5d8eae5c91ea7899d55e2db563e241cb34e153403d01549362a6b691f0f"
+      ]
+    },
+    "service": {
+      "hostname": "leoji.codes",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1598850381,
+  "expire_in": 157680000,
+  "prev": "5e1c6eb4eb2bcee5214e7cb097ad928e44ed014e31708e985d76fe8ec887913a",
+  "seqno": 105,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtU3tQVUUYv4iGYAXMMM34ljPOkHKls3vOnnP2FqQYjRWKaFhmeOfsnj1w4b44
+94IxVxkjTVJHrPExKVrmC80JQ823Y6Zkk0akyQRUpNagqYmPi4Vpe5iccZr2n53d
+/X2/7/f9vm+XPxbrGBjzw2RaWI+POGO+vkQc7tyF0yICCRiVgisilLK+jXkNFgq7
+Sz2G4BJEAEVZUYkEKAYygZjpJmEig4AvhUDVBIYKMRENERNqKqKpKqahq8zAmgk0
+BrGsirrgFEyPv4hZQcvjD9u0JkI6FnUqI9OkOsdS2RSJZGDZUCRk6JqECYOUBxYH
+QnYEF0f0EMvwBPgdP7j75P0P/oFuEagqlhUFIk0zJQkphiqqGhAhlXWNYpEYmACA
+kSRRBVIEMIWmRhGCTFIpVnVD79Nd3kfHgGgqmqExhpGmGjpEQEUKhxtEYRLANjDE
+LL/uYxztZYESjzDPKfiYVeplbisQCNvO0rDHfgcIaxoSJaTy6vRQsdvHwjoPU5Eh
+q9DUmQSxpEgagEQEMtYB0KgmypqKAWUSoVjXMdRlTHUiAwnKIoZcn6pwESFW5g/w
+DKos2Q5wCRarCJQyO3vIU8RNCwmuWQJvG5Hh0XID8ZJ0hnhvma5qGBsIMWgQpEgM
+yoASSWYASbIoGSJAMlcFdYUoGJiiKRTOs/NZFR7aR2/36eH6M2iAzxHXFLQC4QAN
+ePlDcTgcDLlsZ8KVQRs5hxH3vxxu4vEbfEh4RAWzQp6An9fBkf8xTQNOgb0R9FjM
+7bERSFU0kS87D6vglIgBqjAiMwIJZQxBIDOVEtFuKYYak2XGi5F511RRY1hDBp9Y
+pjGq2QZL+kMuiogL1Ys4KffOr4fLLSbMS3inn9TfETPQMfyJ1P6JBdsSjrvvbqs9
+fn3Xg581oJ/9rRwJ8UkPblJeTbyXeSGa0n6ouvHA9RPLa+ZvzoosKulpOHG5aGJS
+5/wRkf2997denJiS3r6pIC121slrYw83deWOHPq0zzgWf/YyfO/9TFdyysyk1lTv
+V3UxV9oO5cOOd0dtbk/4JTW/s3Vj07isLWdjDruXnV/pGp3VtnoK8ovX6cxd4avD
+Gr71DXv+I2FndIG/6Y/a8tFltb0dNUPd964lJ96cPeiLstUvHdDSWfPjg9OHbHSp
+mQtzl50szk6VJqz7Na1m0lrvwbq1Y7Tm8bTeN7cxqW7qnhI9Z+yKt9JLJsyNfn9m
+fWW+dXllQ+uizCv7F/w45s2rny/9IFmeYo0pa7vQfbbynAvXtzTNaTi4M+H3OcPq
+1vRW/fzIjaeKo9XBxSvCIx/NyL49/bX8my3fdDm2RMZXba//LDWypLt5IY2uevGF
+yesnfXf/lTh1nH/HYHfcvg/zstQd/ZIzJubdanEOP5637G53tuOT6OmYvDOFm45s
+vbLU23OnO6t3wOvHqm8lOs9bfzaujCWFXaurplXVDjoz9+XbnX8/+WUPuh3t9Fxs
+fPbC3pSCdaGKn6rZjGd6itv21r1tFcz4rXOJr/309PQR8RkdLRtaR6XFfVy4Ie7W
+0ZI7kb88i9cNzImffWlDy7ndpzpyt3UV5GSnOXNqvZOSZm8pa7+R9NzePc05q3o3
+HTg1dXcNHjF6x6qy2E/3bQ5Oy12zpmhI1fYKb8o/
+=S8rz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leoji
+
+==================================================================
