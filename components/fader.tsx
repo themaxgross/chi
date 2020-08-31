@@ -1,4 +1,5 @@
 import React from 'react'
+import { backgroundColor } from 'styles/constants'
 export function Fader() {
   React.useEffect(() => {
     if (!window.AnimationEvent) {
@@ -63,8 +64,8 @@ export function Fader() {
             height: 100%;
             z-index: 999999;
             pointer-events: none;
-            background: white;
-            animation-duration: 300ms;
+            background: ${backgroundColor};
+            animation-duration: 220ms;
             animation-timing-function: ease-in-out;
           }
 

@@ -3,6 +3,7 @@ import Container, { ContainerProps } from 'react-bootstrap/Container'
 import { Header } from './header'
 import { Footer } from './footer'
 import { Fader } from './fader'
+import { backgroundColor } from 'styles/constants'
 
 export const Layout = ({
   hideHeader = false,
@@ -30,7 +31,7 @@ export const Layout = ({
           font-family: adobe-garamond-pro, serif;
           font-weight: 400;
           font-style: normal;
-          background-color: #f0f0f0;
+          background-color: ${backgroundColor};
         }
         * {
           box-sizing: border-box;
