@@ -66,7 +66,7 @@ function FooterNavItemExternal({
 
 export function Footer() {
   return (
-    <footer className='mt-5'>
+    <footer className='mt-5 small'>
       <div className='mb-1'>© Leo Ji, 2020. All rights reserved.</div>
       <Nav as='nav'>
         {links.map(({ link, internal, ...rest }) =>
