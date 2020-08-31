@@ -27,6 +27,9 @@ export function Fader() {
         if (!fader) {
           return;
         }
+        if (anchor.dataset.nofader) {
+          return;
+        }
 
         const listener = function () {
           window.location = (anchor.href as unknown) as Location;
