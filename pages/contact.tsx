@@ -7,7 +7,12 @@ import {
   FontAwesomeIcon,
   FontAwesomeIconProps,
 } from "@fortawesome/react-fontawesome";
-import {faEnvelopeOpenText} from "@fortawesome/pro-regular-svg-icons";
+
+import {faCommentDots} from "@fortawesome/free-regular-svg-icons";
+import {
+  faEnvelopeOpenText,
+  faMobileAlt,
+} from "@fortawesome/pro-regular-svg-icons";
 import {faKeybase, faTwitter} from "@fortawesome/free-brands-svg-icons";
 
 function ContactItem({
@@ -21,8 +26,9 @@ function ContactItem({
     <p
       style={{
         display: "grid",
-        gridTemplateColumns: `1.5em auto`,
+        gridTemplateColumns: `1.75em auto`,
         alignItems: "center",
+        justifyItems: "stretch",
       }}
     >
       <FontAwesomeIcon icon={icon} height="1em" />
@@ -51,15 +57,24 @@ export default function Contact() {
       <h1>Contact</h1>
       <p>Do you need to talk to me?</p>
       <section className="pt-2">
+        <ContactItem icon={faMobileAlt}>
+          <a href="tel:+12029091200">+1 (202) 909-1200</a>
+        </ContactItem>
+        <ContactItem icon={faCommentDots}>
+          <a href="sms:+12029091200" className="small">
+            also +1 (202) 909-1200
+          </a>
+        </ContactItem>
+        <hr />
         <ContactItem icon={faEnvelopeOpenText}>
-          <a href="mailto:leo@leoji.codes">email: leo@leoji.codes</a>
+          <a href="mailto:leo@leoji.codes">leo@leoji.codes</a>
         </ContactItem>
         <ContactItem icon={faKeybase}>
           <a
             href="https://keybase.io/leoji/pgp_keys.asc?fingerprint=0f55a90ac45ffca98fc4f0b3d94d635da839be2c"
             title="Open link to Keybase.io in new window"
           >
-            PGP key, hosted on keybase.io
+            PGP key (hosted on keybase.io)
           </a>
         </ContactItem>
         <hr />

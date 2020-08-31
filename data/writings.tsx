@@ -46,9 +46,8 @@ export default function Writings() {
               )
               {link && (
                 <React.Fragment>
-                  {" "}
-                  —{" "}
-                  <a href={link} className="text-primary">
+                  <div className="clearfix" />
+                  <a href={link} className="text-primary small">
                     {link}
                   </a>
                 </React.Fragment>
