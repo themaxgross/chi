@@ -28,6 +28,7 @@ const links: FooterLinksProps = [
   },
   {link: "Photos", href: "https://photos.leoji.codes/", icon: faFlickr},
   {link: "Twitter", href: "https://twitter.com/theleoji", icon: faTwitter},
+  {link: "Contact", href: "/contact/", internal: true, icon: faAddressCard},
 ];
 
 export default links;
