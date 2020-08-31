@@ -1,59 +1,59 @@
-import React from 'react'
-import { backgroundColor } from 'styles/constants'
+import React from "react";
+import {backgroundColor} from "styles/constants";
 export function Fader() {
   React.useEffect(() => {
     if (!window.AnimationEvent) {
-      return
+      return;
     }
-    var fader = document.getElementById('fader')
+    var fader = document.getElementById("fader");
     if (!fader) {
-      return
+      return;
     }
-    fader.classList.add('fade-out')
+    fader.classList.add("fade-out");
 
     if (!window.AnimationEvent) {
-      return
+      return;
     }
-    const anchors = document.getElementsByTagName('a')
+    const anchors = document.getElementsByTagName("a");
 
     for (let idx = 0; idx < anchors.length; idx += 1) {
       if (anchors[idx].href === window.location.pathname) {
-        continue
+        continue;
       }
-      anchors[idx].addEventListener('click', function (event) {
-        const fader = document.getElementById('fader'),
-          anchor = event.currentTarget as HTMLAnchorElement
+      anchors[idx].addEventListener("click", function (event) {
+        const fader = document.getElementById("fader"),
+          anchor = event.currentTarget as HTMLAnchorElement;
 
         if (!fader) {
-          return
+          return;
         }
 
         const listener = function () {
-          window.location = (anchor.href as unknown) as Location
-          fader.removeEventListener('animationend', listener)
-        }
-        fader.addEventListener('animationend', listener)
+          window.location = (anchor.href as unknown) as Location;
+          fader.removeEventListener("animationend", listener);
+        };
+        fader.addEventListener("animationend", listener);
 
-        event.preventDefault()
-        fader.classList.add('fade-in')
-      })
+        event.preventDefault();
+        fader.classList.add("fade-in");
+      });
     }
 
-    window.addEventListener('pageshow', function (event) {
+    window.addEventListener("pageshow", function (event) {
       if (!event.persisted) {
-        return
+        return;
       }
-      var fader = document.getElementById('fader')
+      var fader = document.getElementById("fader");
       if (!fader) {
-        return
+        return;
       }
-      fader.classList.remove('fade-in')
-    })
-  }, [])
+      fader.classList.remove("fade-in");
+    });
+  }, []);
 
   return (
     <React.Fragment>
-      <svg id='fader'></svg>
+      <svg id="fader"></svg>
       <style jsx global>
         {`
           #fader {
@@ -99,5 +99,5 @@ export function Fader() {
         `}
       </style>
     </React.Fragment>
-  )
+  );
 }
