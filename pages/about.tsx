@@ -5,6 +5,7 @@ import { Layout } from 'components'
 import Alert from 'react-bootstrap/Alert'
 
 export default function Home() {
+  return <Layout></Layout>
   return (
     <Layout>
       <Head>

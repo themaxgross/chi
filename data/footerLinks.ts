@@ -13,17 +13,18 @@ export type FooterLinksProps = {
 }[]
 
 const links: FooterLinksProps = [
-  {
-    link: 'About',
-    href: '/about',
-    className: 'pl-0',
-    internal: true,
-    icon: faAddressCard,
-  },
+  // {
+  //   link: 'About',
+  //   href: '/about',
+  //   className: 'pl-0',
+  //   internal: true,
+  //   icon: faAddressCard,
+  // },
   {
     link: 'Blog',
     href: 'https://leoji.blog',
     icon: faTypewriter,
+    className: 'pl-0',
   },
   { link: 'Photos', href: 'https://photos.leoji.codes/', icon: faFlickr },
   { link: 'Twitter', href: 'https://twitter.com/theleoji', icon: faTwitter },
