@@ -1,7 +1,10 @@
 import Head from "next/head";
 import {NextSeo as Seo} from "next-seo";
+import execCopy from "copy-to-clipboard";
 
 import {Layout} from "components/layout";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 
 import {
   FontAwesomeIcon,
@@ -13,7 +16,11 @@ import {
   faEnvelopeOpenText,
   faMobileAlt,
 } from "@fortawesome/pro-regular-svg-icons";
-import {faKeybase, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {
+  faKeybase,
+  faTwitter,
+  faDiscord,
+} from "@fortawesome/free-brands-svg-icons";
 
 function ContactItem({
   children,
@@ -23,15 +30,13 @@ function ContactItem({
   icon: FontAwesomeIconProps["icon"];
 }) {
   return (
-    <p
-      style={{
-        display: "grid",
-        gridTemplateColumns: `1.75em auto`,
-        alignItems: "center",
-        justifyItems: "stretch",
-      }}
-    >
-      <FontAwesomeIcon icon={icon} height="1em" />
+    <p style={{}}>
+      <FontAwesomeIcon
+        icon={icon}
+        height="1em"
+        width="2ch"
+        style={{marginRight: "1ch"}}
+      />
       {children}
     </p>
   );
@@ -103,6 +108,27 @@ export default function Contact() {
           >
             @theleoji
           </a>
+        </ContactItem>
+        <ContactItem icon={faDiscord}>
+          <OverlayTrigger
+            overlay={
+              <Tooltip id="discord-username" className="small">
+                Click to copy
+              </Tooltip>
+            }
+          >
+            <a
+              data-nofader
+              title="Click to copy Discord username theleoji#7304"
+              href=""
+              onClick={event => {
+                event.preventDefault();
+                execCopy("theleoji#7304");
+              }}
+            >
+              theleoji#7304
+            </a>
+          </OverlayTrigger>
         </ContactItem>
       </section>
     </Layout>

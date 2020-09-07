@@ -2,6 +2,8 @@ import Link, {LinkProps} from "next/link";
 import Nav from "react-bootstrap/Nav";
 import {NavLinkProps} from "react-bootstrap/NavLink";
 
+import {faCopyright} from "@fortawesome/free-solid-svg-icons";
+
 import {
   FontAwesomeIcon,
   FontAwesomeIconProps,
@@ -67,7 +69,16 @@ function FooterNavItemExternal({
 export function Footer() {
   return (
     <footer className="mt-5 small">
-      <div className="mb-1">© Leo Ji, 2020. All rights reserved.</div>
+      <div className="mb-1">
+        <FontAwesomeIcon
+          icon={faCopyright}
+          size="1x"
+          height="1em"
+          className="align-text-top"
+        />
+        <span className="sr-only">©</span>&nbsp;Leo Ji, 2020. All rights
+        reserved.
+      </div>
       <Nav as="nav">
         {links.map(({link, internal, ...rest}) =>
           internal ? (
