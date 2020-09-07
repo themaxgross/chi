@@ -90,7 +90,6 @@ export default function Contact() {
           <a
             href="https://keybase.io/leoji/pgp_keys.asc?fingerprint=0f55a90ac45ffca98fc4f0b3d94d635da839be2c"
             title="Open link to Keybase.io in new window"
-            data-nofader
           >
             PGP key (hosted on keybase.io)
           </a>
@@ -100,7 +99,6 @@ export default function Contact() {
           <a
             href="https://twitter.com/theleoji"
             title="Open link to Twitter in new window"
-            data-nofader
             target="_blank"
           >
             @theleoji
