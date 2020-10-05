@@ -10,7 +10,7 @@ const works: {
   description?: React.ReactNode;
 }[] = [
   {
-    title; "Journalism, independent of the police",
+    title: "Journalism, independent of the police",
     publisher: "Blog",
     date: new Date("Sept 8 2020"),
     link: "https://leoji.blog/2020/09/journalism-independent-of-the-police/",
