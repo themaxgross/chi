@@ -249,10 +249,10 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react-bootstrap@^0.32.25":
-  version "0.32.25"
-  resolved "https://registry.yarnpkg.com/@types/react-bootstrap/-/react-bootstrap-0.32.25.tgz#fdea798f9a2623a161ed61939898078ae841df1e"
-  integrity sha512-VTa6viz5L+uPblEiF2pZz/n425cC49hrjLTsiLySxf7fw+UkchkjpskrsOHRvC6cCgCAG9futRWvOOjD1IBQqQ==
+"@types/react-bootstrap@^0.32.27":
+  version "0.32.27"
+  resolved "https://registry.yarnpkg.com/@types/react-bootstrap/-/react-bootstrap-0.32.27.tgz#5ce2967e13838fe4a3fc6a1bf551d3c02997bad7"
+  integrity sha512-0VG+X5va4NllhDGbSwuL/ysy68L6hKqNl0d4DN4lUz/JCriZYKRs8MAII411xpbie/Oeu5Fv/C2Gsm8kF08N1Q==
   dependencies:
     "@types/react" "*"
 
